@@ -112,6 +112,7 @@ if st.button(" Predict", use_container_width=True):
     for feature in features_to_convert:
         input_df_encoded[feature] = input_df_encoded[feature].astype(int)
 
+
     missing_cols = set(x_train) - set(input_df_encoded.columns)
     for c in missing_cols:
         input_df_encoded[c] = 0
