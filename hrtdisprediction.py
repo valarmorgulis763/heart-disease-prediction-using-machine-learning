@@ -1,6 +1,5 @@
 import pickle
 import pandas as pd
-import numpy as np
 from scipy.stats import boxcox
 import streamlit as st
 from io import BytesIO
